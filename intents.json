@@ -1,0 +1,589 @@
+{"intents": [
+        {"tag": "tag1",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "tag2",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "tag3",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "tag4",
+        "patterns": ["Who made you?","Who is your owner?"],
+        "responses": ["A group of four Btech students from IIT Mandi made me. They are: Shruti Jain(2020-2024) and CHVSN Medha, B Keerthi, and Rashika Rathi from btech(2018-2022)"],
+        "context": [""]
+        },
+        {"tag": "tag5",
+         "patterns": ["What is your name?", "your name?", "who are you?"],
+         "responses": ["I am kaiwa"],
+         "context": [""]
+        },
+        {"tag": "tag6",
+        "patterns": ["What we have to do after accepting seat in iit mandi??", "", ""],
+        "responses": ["After you've got your documents verified through JOSAA, you'll have to wait till the last round of counselling. You'll get a mail from the college after 9th which will inform you about the admission process."],
+        "context": [""]
+        },
+        {"tag": "tag7",
+        "patterns": ["Fees at iit mandi", "What’s the fee structure of iit mandi", "Fee structure of iit mandi"],
+        "responses": ["iitmandi.ac.in/academics/fees.php"],
+        "context": [""]
+        },
+        {"tag": "tag8",
+        "patterns": ["Anyone from Bioengg", "Wanted to know how many people have got bio engineering other than me!!", "who are people in bioengineering"],
+        "responses": ["ROLL NO. : B20001-B20025  https://drive.google.com/file/d/1_luqArxgrLmFAToTEmoTiIx2gXH5ovV5/view?usp=sharing"],
+        "context": [""]
+        },
+        {"tag": "tag9",
+        "patterns": ["Are girls allowed to play cricket and prepare for any competition..?"],
+        "responses": ["Girls are allowed to play cricket and do play occasionally with leather ball and proper kit in college. They usually compete amongst themselves in annual intra-college tournaments like Hostel GC and Aagaz."],
+        "context": [""]
+        },
+        {"tag": "tag10",
+        "patterns": ["How is cricket in iit Mandi,do we play good in inter iits"],
+        "responses": ["Yes we do, in 2k19 we were 3rd among all IITs. There is a formal procedure to select Freshers to be on inter IIT team although you have to come to practice sessions Mon-fri, and there are matches, say every month on Saturday and Sunday for practice"],
+        "context": [""]
+        },
+        {"tag": "tag11",
+        "patterns": ["Anyone from Civil engineering", "anyone from cse", "anyone from computer science and engineering","anyone from dse","anyone from data science and engineering","Anyone from ee","Anyone from electrical engineering","Anyone from mech engineering","anyone from mechanical engineering","anyone from ep","anyone from engineering physics","anyone from bioengineering"],
+        "responses": ["https://drive.google.com/file/d/1_luqArxgrLmFAToTEmoTiIx2gXH5ovV5/view?usp=sharing"],
+        "context": [""]
+        },
+        {"tag": "tag12",
+        "patterns": ["Given that IIT Mandi is in a geographically challenging area do professor s , CEO s and other eminent people visit the campus as frequent as other IIT s"],
+        "responses": ["yes they do visit."],
+        "context": [""]
+        },
+        {"tag": "tag13",
+        "patterns": ["can we bring our own iron box and water heater ?"],
+        "responses": ["ELectric stove and iron box will be available in hostel. No need to bring them on your own. If you're caught having one, then you'll be fined for the same. No such electrical equipments are allowed to be kept in ones room."],
+        "context": [""]
+        },
+        {"tag": "tag14",
+        "patterns": ["are there canteens inside the campus other than mess"],
+        "responses": ["yes there're many canteens. Major are 3 in North campus and 4 in South campus."],
+        "context": [""]
+        },
+        {"tag": "tag15",
+        "patterns": ["what main coding language will be taught in college"],
+        "responses": ["there's nothing like a main language . In your first year you'll be taught Python in Data Science irrespective of any branch, then from second year depending on the courses you'll be taught C++ or any other proogramming language. For more details, contact programming Club coordinators or your seniors on kamand prompt on Facebook: https://www.facebook.com/groups/KamandPrompt"],
+        "context": [""]
+        },
+        {"tag": "tag16",
+        "patterns": ["how will data science branch be"],
+        "responses": ["https://www.iitmandi.ac.in/academics/files/B.TechinDataScience.pdf"],
+        "context": [""]
+        },
+        {"tag": "tag17",
+        "patterns": ["average packages for each branch"],
+        "responses": ["official website for more details www.iitmandi.ac.in"],
+        "context": [""]
+        },
+        {"tag": "tag18",
+        "patterns": ["Given that IIT Mandi is in a geographically challenging area do professor s , CEO s and other eminent people visit the campus as frequent as other IIT s"],
+        "responses": ["the remoteness of the campus may have an effect on the students attending the conferences, but not the speakers, as their safe and proper travel is mostly facilitated by the institute itself. The geographical location isn't that bad that it would affect people of eminence from accepting our invitations"," Last year there were a few conferences organised at IIT Mandi, one of them was iNaCoMM(link: http://iitmandi.ac.in/iNaCoMM2019) which lalit N. Mudgal(students of iit mandi) and Jainan Tandel along with a few students of IITrpr attended."],
+        "context": [""]
+        },
+        {"tag": "tag19",
+        "patterns": ["What do we do in physics club?"],
+        "responses": ["Ask:- technical secretary contact info (https://gymkhana.iitmandi.co.in/)"],
+        "context": [""]
+        },
+        {"tag": "tag20",
+        "patterns": ["How is Mechanical Engineering at IIT Mandi in terms of placements ?", "How is the placement scenario of IIT mandi cse?"],
+        "responses": ["here are placement stats of last two years(http://research.iitmandi.ac.in/main/placements/files/The%20placement%20stat%202019-20.pdf)&(http://research.iitmandi.ac.in/main/placements/files/Placement%20_Statistics(2018-19).pdf) for more stats refer to placement cell of iit mandi athttp://research.iitmandi.ac.in/main/placements/why-recruit.php"],
+        "context": [""]
+        },
+        {"tag": "tag21",
+        "patterns": ["Branch Change Policy", "Terms and conditions for branch change"],
+        "responses": ["https://www.iitmandi.ac.in/academics/branch_change.php"],
+        "context": [""]
+        },
+        {"tag": "tag22",
+        "patterns": ["Is hot water available in hostels?"],
+        "responses": ["Yes"],
+        "context": [""]
+        },
+        {"tag": "tag23",
+        "patterns": ["how to convey our ideas to administration?"],
+        "responses": ["Gymkhana secretaries and even students always look for better opportunity as per human nature and they tell the ideas or suggestions to concerned secretaries. Then, secretaries put forward the idea in senate meeting with administration."],
+        "context": [""]
+        },
+        {"tag": "tag24",
+        "patterns": ["How many share room we get at first year??"],
+        "responses": ["Mostly triple. Some get double."],
+        "context": [""]
+        },
+        {"tag": "tag25",
+        "patterns": [" does the univ fund the clubs or is it just the students putting their money in?"],
+        "responses": ["yes university provide fund for club"],
+        "context": [""]
+        },
+        {"tag": "tag26",
+        "patterns": ["What's the timetable normally like at IIT Mandi ?And how different is it now with online classes ?"],
+        "responses": ["You’ll find difference only in other activities, academic schedule will almost be same apart from practicum courses schedule."],
+        "context": [""]
+        },
+        {"tag": "tag27",
+        "patterns": ["Has people from our institute made it to the ivy leagues for their masters , can I find a good coaching institute for GRE/TOEFL in Mandi"],
+        "responses": ["Abhigyan Khaund ,V Sai Subba Rao, these are the people to have made it to prestigious US universities. You may contact them."],
+        "context": [""]
+        },
+        {"tag": "tag28",
+        "patterns": ["What documents are required at the time of admission."],
+        "responses": ["https://www.facebook.com/photo.php?fbid=3500274823387038&set=p.3500274823387038&type=3"],
+        "context": [""]
+        },
+        {"tag": "tag29",
+        "patterns": ["Are there interdisciplinary events, even if informal, involving School of Humanities and Social Sciences?"],
+        "responses": ["Depends on availability of time"],
+        "context": [""]
+        },
+        {"tag": "tag30",
+        "patterns": ["I get data science at iit mandi is it comparable with CS"],
+        "responses": ["They are of course different branches and thus have their own curriculums. However the discipline credits to be done are only 33 out of a total of 160 in any btech degree. Also you may do the courses of computer science along by there is no restriction."],
+        "context": [""]
+        },
+        {"tag": "tag31",
+        "patterns": ["I don't have laptop but a tablet ?Should I buy a laptop."],
+        "responses": ["You would be needing a laptop sooner or later since many of the assignments are done using various softwares, and if you don't have one you would have to go to the computer lab to do the tasks."],
+        "context": [""]
+        },
+        {"tag": "tag32",
+        "patterns": ["Is there any special incentive given to girl students which is not available in most of the other IITs?"],
+        "responses": ["Yes. If you are admitted to IIT Mandi, you will get a merit scholarship including full tuition fee waiver and Rs. 1,000/- per month stipend in the first year irrespective of category and parent’s income. This merit scholarship will continue for all 4 years of B.Tech. subject to good academic performance of the candidate indicated by a minimum SGPA criteria of 7.0 for the previous two semesters and no disciplinary action. "],
+        "context": [""]
+        },
+        {"tag": "tag33",
+        "patterns": [". Where will the freshers be accommodated? "],
+        "responses": [" When the institute reopens, the freshers will be accommodated at North Campus, Kamand. "],
+        "context": [""]
+        },
+        {"tag": "tag34",
+        "patterns": ["Can we join two clubs at the same time, like robotronics and STAC??"],
+        "responses": ["You can join any number of clubs. In first year most of the people join various clubs and try to different things/explore the clubs and then decide continuation of which clubs should be done from second year onwards, since the workload increases after first year."],
+        "context": [""]
+        },
+        {"tag": "tag35",
+        "patterns": ["academic calendar"],
+        "responses": ["https://www.iitmandi.ac.in/academics/calendar.php"],
+        "context": [""]
+        },
+        {"tag": "tag36",
+        "patterns": ["Are the Software companies recruiting (on-campus intern/placement) for SDE roles also open for Data Science branch or the students of Data Science branch can only sit in ML/AI based companies/startups ???"],
+        "responses": ["Most of the companies allow all branches to appear in their placement process."],
+        "context": [""]
+        },
+        {"tag": "tag37",
+        "patterns": ["Is bioengg different from Biotech branch at other IITs? And what're the future prospects for going abroad for MS & Research?"],
+        "responses": ["Bioengineering is a broad subject, Biotechnology is a subpart of of Bioengineering. And it's a 5 year MTech+Btech course thus you would not prefer MS after this course. It is a very research based course and has great prospects for going abroad. Naturally everything you achieve depends on how dedicated and aware you are. Thus don't expect anything to be handed to you but there are enough avenues for you to go abroad especially since the field is full of research opportunity. IIT Mandi also has an exchange programme with several German universities, you should look into that once you join college."],
+        "context": [""]
+        },
+        {"tag": "tag38",
+        "patterns": ["Why should I join IIT Mandi"],
+        "responses": ["Unique curriculum with real-world design-oriented projects every year from 1st year to 4th year. Students work in teams across branches. Even in 1st and 2nd year, students do projects that are normally done only in 3rd and 4th year at other IITs. Friendly atmosphere with mingling of faculty and students. Students have easy access to faculty, Deans and the Director. The faculty participate in sports and other activities and eat in the Mess along with students. A close knit community. Himachal is the most peaceful State in India. The campus is perfectly safe, especially for girls. Situated in the serene Uhl River Valley far from cities, it is very healthy without the pollution and congestion of the cities. A healthy climate, warm in summer and cool in winter. Excellent outdoor and indoor sports facilities: cricket, football, tennis, volleyball, etc .... Unique extra-curricular activities include the Hiking & Trekking Club, the Mountain Biking Club, social outreach programs working with local school children. Himachal has many scenic spots such as Kullu, Manali, Manikaran hot springs, Dharamsala, ... where you can go for weekend outings with your friends."],
+        "context": [""]
+        },
+        {"tag": "tag39",
+        "patterns": ["How developed is the IIT Mandi campus at Kamand? "],
+        "responses": ["IIT Campus is spread over North and South campuses in Kamand. North and south campuses are contiguous and interconnected with roads and walkways. Phase 1 construction of the south campus is complete and the north campus is expected to complete in 2021. Faculty and students are living on both south and north campuses. Most of the academic activities of B.Tech students are held in the north campus. "],
+        "context": [""]
+        },
+        {"tag": "tag40",
+        "patterns": ["How is the weather in Kamand like? "],
+        "responses": ["Weather becomes chilly after mid-October, and in winter, there is the occasional snowfall, especially in the mountains above Kamand. But in general, we have long winter vacations from early December till mid-February to keep the cold at bay. The weather is usually pleasant, especially in the evenings and is ideal for nature enthusiasts who want to explore the serene surroundings of IIT Mandi. "],
+        "context": [""]
+        },
+        {"tag": "tag41",
+        "patterns": ["What is the procedure for getting the MCM scholarships? "],
+        "responses": ["Income certificates are submitted at the time of admission as mentioned on the website and applications are collected during the semester. The decision is made by the Senate to award the scholarships, and later in the second semester, students are given the scholarship reimbursing their earlier tuition fees and that of the second semester. Other details can be found here: http://iitmandi.ac.in/academics/scholarship.php"],
+        "context": [""]
+        },
+        {"tag": "tag42",
+        "patterns": ["What will be the courses in 1st sem of B.Tech?"],
+        "responses": ["There will be common courses for all of you in the first year. These first year courses include Electrical systems around us, Computing and Data Science, Mathematics, Reverse Engineering, Graphics for Design, English, German, Applied electronics, Engineering Thermodynamics, etc . List of courses for the first semester would be available on the course page linked below. More about curriculum and courses: http://www.iitmandi.ac.in/academics/courses.php http://iitmandi.ac.in/academics/perspective_btech_curriculum.php"],
+        "context": [""]
+        },
+        {"tag": "tag43",
+        "patterns": [" Can freshers bring laptops in the first sem? How is the internet facility on campus?"],
+        "responses": ["Yes. There is no restriction in bringing a laptop to the Institute when you join. It would be better if you had a laptop for the course on computation with Python-language programming, but then the PC lab is also there. The Internet is pretty good in the Institute and is uncapped, i.e., unlimited hi-speed net at all times. "],
+        "context": [""]
+        },
+        {"tag": "tag44",
+        "patterns": ["What facilities are provided to the freshers for the purchase of hostel necessities like mattresses, pillows, buckets etc.? Do we need to bring these things along with us?"],
+        "responses": ["Institute arranges for the sale of hostel necessities like mattresses, pillows, pillow covers, bed sheets, locks, buckets, mugs etc. on Orientation day. Local vendors are arranged for the sale of these items inside the Institute."],
+        "context": [""]
+        },
+        {"tag": "tag45",
+        "patterns": ["Will we be buying books or we can get them from the library?"],
+        "responses": ["In general, you can get the e-books for the materials that the teacher specifies. Also, you can get them from the library, though the library may have only limited copies. Local bookshops in Mandi or online stores are also of help, so are the seniors. Moodle web pages on our intranet site have all the course materials posted by faculty and students. "],
+        "context": [""]
+        },
+        {"tag": "tag46",
+        "patterns": ["What is the holiday schedule of IIT Mandi?"],
+        "responses": ["A generous holiday schedule is followed in here. We have a five-day working week, and at times there are other holidays in between too. Semester breaks are from December to Mid February for winters and from mid June to early August in summers. As we are following the online semester now, classes are held from Monday to Saturday, the semester breaks are also different compared to the usual schedule. Please check the academic calendar for first year students for further details. http://iitmandi.ac.in/academics/calendar.php"],
+        "context": [""]
+        },
+        {"tag": "tag47",
+        "patterns": ["What are the co-curricular activities and clubs at IIT Mandi?"],
+        "responses": ["The student Gymkhana organizes all extracurricular activities. Have a look at the link below for more details. https://gymkhana.iitmandi.co.in/ "],
+        "context": [""]
+        },
+        {"tag": "tag48",
+        "patterns": ["What about sports? "],
+        "responses": ["Sports activities are coordinated by the Principal Sports Officer and the Faculty Sports Advisor. A team of highly experienced coaches and ground staff work under their direction to help you take part in the games of your choice. Participate in various tournaments like Inter-IIT, Aagaaz, Rann-Neeti and other in-house tournaments. At Kamand, we have fields for Cricket, Football and Hockey, Basketball, Tennis, Squash, Badminton, TT and Volleyball courts. TT and Foosball tables are also available in most hostels. There is also Swimming pool, gym and yoga room etc. "],
+        "context": [""]
+        },
+        {"tag": "tag49",
+        "patterns": ["What are the games played at IIT Mandi?"],
+        "responses": ["Football, Basketball, Cricket, Volleyball, Badminton, Hockey, Lawn Tennis, Squash, Table Tennis, Swimming and Athletics. "],
+        "context": [""]
+        },
+        {"tag": "tag50",
+        "patterns": ["When is the session starting for first year B.Tech students?"],
+        "responses": ["First semester will start in the online mode from 21st nov "],
+        "context": [""]
+        },
+        {"tag": "tag51",
+        "patterns": ["What are the good places to hang out in Mandi town? "],
+        "responses": [" Mandi has a fairly good market, which can provide you with almost anything. Hotels like Raj Mahal, Regent Palms, Treat are good for dinners. Dominos, Raman Bakers, Sai Sweets have their share of fast food fanatics. Indira Market, built around a sunken lake, - the Mandi version of a super mall - is a delightful place for making little discoveries. "],
+        "context": [""]
+        },
+        {"tag": "tag52",
+        "patterns": ["Is there Ragging? Does IIT Mandi have policies against it?"],
+        "responses": ["Zero Tolerance for ragging. We have the following committees to take care of any issues, Student Welfare and Disciplinary Committee (SWDC), Anti-Ragging Committee (ARC). "],
+        "context": [""]
+        },
+        {"tag": "tag53",
+        "patterns": ["What if I get lost in Kamand?"],
+        "responses": [" it is a small place so chances of getting lost is minimal. Keep the security numbers with you. "],
+        "context": [""]
+        },
+        {"tag": "tag54",
+        "patterns": ["How is the mess food?"],
+        "responses": ["The mess food is nutritional and offers a huge variety from mattar paneer to chole bhature to non veg food and not to mention the special dinner at every month's end. "],
+        "context": [""]
+        },
+        {"tag": "tag55",
+        "patterns": ["Is it safe for female students to roam around in the IIT Mandi campus and nearby places (like Kamand village etc)?"],
+        "responses": ["IIT Mandi campus and nearby places are very safe to roam alone. The villagers around the campus are very friendly and ready to help anytime. There are many security guard posts across the campus."],
+        "context": [""]
+        },
+        {"tag": "tag56",
+        "patterns": ["Is there any place to eat in or around campus apart from the Dining Halls?"],
+        "responses": ["There are many canteens on campus, some of which remain open till midnight or beyond."],
+        "context": [""]
+        },
+        {"tag": "tag57",
+        "patterns": ["what companies come for internships and placements"],
+        "responses": ["http://research.iitmandi.ac.in/main/placements/recruiters.php"],
+        "context": [""]
+        },
+        {"tag": "tag58",
+        "patterns": ["how to come to campus from Delhi"],
+        "responses": ["hrtc buses will be there from Delhi to Mandi.For more details visit here:- http://iitmandi.ac.in/institute/campus/how_to_reach.php"],
+        "context": [""]
+        },
+        {"tag": "tag59",
+        "patterns": ["Unique activities"],
+        "responses": ["Due to its pristine location, students can enjoy hiking and trekking, mountain biking etc. We have active student clubs who coordinate these activities. "],
+        "context": [""]
+        },
+        {"tag": "tag60",
+        "patterns": ["Labs & research facilities at IIT Mandi"],
+        "responses": ["IIT Mandi has excellent teaching and research labs. Since the labs are newly developed, they have new and updated equipments. "],
+        "context": [""]
+        },
+        {"tag": "tag61",
+        "patterns": ["Placement statistics"],
+        "responses": ["80-90% students who opt for placement get placed. Salary package comparable to other IITs. Students go for higher studies, entrepreneurship etc Last year Placement in CSE was 98.27 %, EE was 84.5%, ME was 66.6% , CE 33.3%. Median Salary: 14LPA"],
+        "context": [""]
+        },
+        {"tag": "tag62",
+        "patterns": ["I heard that IIT Mandi has only fresh, young faculty. Will I get good teaching?"],
+        "responses": ["In any IIT, you will find a few teachers who inspire you because you have an interest in the subject. We have young faculty who are active in cutting-edge research and worked in excellent research labs and industry in India and abroad. Young faculty are easy to approach informally outside the classroom, they participate in sports etc. IIT Mandi has 10% senior faculty who mentor the young faculty so that their teaching is good and is improving. Many of the young faculty now have 4-7 years of teaching experience."],
+        "context": [""]
+        },
+        {"tag": "tag63",
+        "patterns": ["What are the opportunities for semester exchange with other national and international Institutes? "],
+        "responses": ["MoU with TU9 institutes Germany, WPI Universities in USA, Universities in Sweden, Denmark, Switzerland, Canada as well as other IITs. Students go for exchange programs for 1 or 2 semesters. More info: https://students.iitmandi.ac.in/international.php"],
+        "context": [""]
+        },
+        {"tag": "tag64",
+        "patterns": ["Give me more insights of dse branch"],
+        "responses": ["Data science has become important due to recent technology disruptions. Most fundamental is Moore's Law which has driven an exponential growth in computing, storage, and communications per rupee over the past 50 years. This rate of growth shows no signs of abating. Consequently, today we have the Internet of Things: a plethora of sensors costing 10s of rupees or less, a global Internet with almost limitless bandwidth, and enormous storage in global clouds. The present era is full of technological advances in almost all spectrums of life and we are flooded with enormous amounts of data. There is an increasing demand of capturing, analyzing, and synthesizing this large amount of data in a number of application domains to better understand various phenomena and to convert the information available in the data into actionable strategies such as new scientific discoveries, business applications, policy making, and healthcare etc. Data science is the area where applications of various tools and techniques from the disciplines of applied statistics, mathematics and computer science are used to get greater insight and to make better and informed decisions for various purposes by analysing a large amount of data. Jim Gray, database pioneer, has called Data Science the 4th paradigm of science. The first 3 are the empirical, the theoretical and the computational paradigms. In industry there is an escalating demand for trained professionals that can collect, process, and study the large data sets and reveal underlying trends and other insights. Consequently, the study of data science as a discipline has become essential to cater the growing need for professionals and researchers to deal with the future challenges. Given the mounting importance of the data science paradigm, IIT Mandi has decided to start a new 4 years bachelor program on Data Science and Engineering (DSE). The curriculum of the DSE program focuses on exposing to the students with the essentials of applied statistics, applied mathematics, and computer science required in the context of data science and its applications with strong emphasis on having hands-on experience with the help of practicum, labs and experience of dealing with real-world problems. Objectives of the program After the completion of the degree, students would 1. be prepared with a varied range of expertise in different aspects of data science such as data collection, visualization and processing large data sets. 2. acquire a good understanding of both the theory and application of applied statistics, applied mathematics and computer science based existing data science models to analyse huge data sets originating from diversified application areas. 3. be able to create new models using the knowledge acquired from the program to solve future challenges and real-world problems requiring large scale data analysis. 4. be better trained professionals to cater the growing demand for data scientists and engineers in industry."],
+        "context": [""]
+        },
+        {"tag": "tag65",
+        "patterns": ["Give me more insights of EP branch"],
+        "responses": ["Engineering Physics (EP) at IIT Mandi is a unique program, which is designed to prepare graduates with rigorous foundation in Physics along with Engineering in order to tackle today’s technology challenges. EP will enhance the cross-functionality and bridge the gap between pure science and traditional engineering disciplines which so far have been pursued independently. This is necessary because in today’s world major scientific and technological breakthroughs happen in a multi-disciplinary environment where scientists from pure science work along with engineers. It is, therefore, highly important to inculcate both scientific and technological aspects, and the EP programme will serve this purpose. The curriculum for EP at IIT Mandi introduces students to a wide variety of fields in pure as well as applied Physics. The core courses cover basic areas in Physics, such as Quantum Mechanics, Statistical Mechanics and Condensed Matter Physics; as well as basic courses in Mathematics and Engineering. In addition to the compulsory courses, students will complete a certain number of elective courses in Physics intended to provide a good exposure in various directions in both theoretical and applied Physics. The vision is to cater to and enhance the curiosity of students with varied interests in the field. Besides, a number of courses in other branches of science and engineering, along with humanities and social sciences, will also be available as electives. This will allow students to explore their areas of interest. If a student is inclined towards electrical engineering, s/he can take the requisite number of courses/credits in that program and get a minor. Interdisciplinary areas in physical sciences and engineering, like Quantum technology, Photonics, Nano-electronics and Artificial Intelligence, promise to become dominant in the 21 st century. EP that teaches science underlying engineering will prepare students to apply Physics to tackle these 21st century engineering challenges and vice-versa. Additionally, EP will also prepare students to pursue an advanced degree in Physics as well as engineering. "],
+        "context": [""]
+        },
+        {"tag": "tag66",
+        "patterns": ["Give me more insights of Bioengineering branch"],
+        "responses": ["Indian Institute of Technology Mandi is offering a unique B.Tech-M.Tech Integrated Dual Degree programme in Bioengineering that is aimed at providing students with a broad base knowledge of engineering principles and practices to understand the biological world. Ranging from sensing of data from the biological world, to actuation through prosthetics, from computational models to understand the biological world to machine learning techniques for diagnosis, the programme aims to offer a wide plethora of problem solving opportunities derived from the biological world. The programme, unique of its kind looks at Bioengineering from a more generalized perspective without getting limited to only Biomedical Engineering, as is commonly envisioned at many engineering institutions in the country. This widens the horizon of the student at a Bachelor’s level who can then choose to specialize in the different areas of Bioengineering like Biomedical Engineering, Agro-Technology, Computational Bioengineering or Environmental Science and Engineering. Such a programme definitely provides an exploratory approach to understanding Bioengineering, postponing the notion of specializing in a particular domain area to a later stage allowing a student to introspect into his/her potential while taking lessons on basic biology and computational, electrical and mechanical engineering principles. Coupled with IIT Mandi’s philosophy of providing a broad base engineering education, the programme perfectly synergizes engineering fundamentals with biological domain areas with the intent of generating engineering manpower endowed with a sufficient appreciation towards biology. The biological world is vast and extracting information from the biological world requires in depth understanding of electrical, mechanical and computational engineering principles and practices with significant understanding of the biological world. The discipline of bioengineering has evolved drastically over the past 50 years, seemingly encompassing all fields that include bioelectric phenomena, bioinformatics, biomaterials, biomechanics, bioinstrumentation, biosensors, biosignal processing, biotechnology, computational biology, medical imaging, etc. The B.Tech and M.Tech dual degree programme on Bioengineering strives to train students in the field of physical, chemical, mathematical and biological sciences together with engineering principles for the development of technology aimed at providing diagnostic, therapeutic and assistive and analytical support to biological systems. The programme strives to train the students in the field of basic electrical and mechanical engineering disciplines together with principles in physical, chemical, mathematical, computational and biological sciences for inculcating knowledge enabling them in developing and deploying Bioengineering related technologies in various fields. "],
+        "context": [""]
+        },
+        {"tag": "tag67",
+        "patterns": ["let me know more about induction programme","What is meant by engineering module","what is meant by life skills","What is meant by life essentials","What is meant by life enhancements","What is meant by inspirational activities"," unique features of 5 WIP"],
+        "responses": ["This unique fully faculty-mentored Induction Programme (which began in 2016) is based on the assumption that although there are pronounced differences in both abilities and skills among college-entering students, these students are not given enough time and training to get used to the ethos of an IIT. The 5WIP treats all students as unique individuals with their specific strengths and weaknesses. It gives all students a chance—before their rigorous, grade-oriented classes begin—to acquire the critical skills that will enable them to follow lectures with ease, gain the confidence to ask questions of their teachers, and to feel at ease in their new home: the IIT residential campus. In the 5WIP, students spend their first 5 weeks in an intense, meticulously planned and executed daily routine before regular classes begin. The components of the 5WIP may be classified into the following five categories: Engineering Modules In the Exploring Engineering module, students are exposed to the excitement of real-world engineering through interactive group-work. Faculty members from different engineering disciplines guide students to discover what exactly a career in engineering entails. Students are given carefully chosen projects to create (for example a boomerang and a circuit board) and are encouraged to experiment with conceptual and material tools. This module opens up exciting vistas for students towards the four years ahead. It demystifies engineering and students learn the interconnectedness of all branches of engineering in real-world scenarios. Visual Thinking, a critical skill for engineers, is an activity based module in which students learn the power of pencil sketches for engineering design. For example, they have to conceptualize and sketch all components of a metro station or a student mess hall. In the Computer Proficiency Module, students in randomly chosen groups are given basic familiarity with computer hardware and software. As students are in randomly chosen groups, students who are better at a skill/subject are encouraged to help their group members. At the same time, the more skilled students are also given optional, more challenging assignments. Life Skills This component is intended to bring all students up to a minimum level in skills essential for the rigorous IIT classes. This includes English and Soft Skills modules. Each student, irrespective of his/her initial proficiency level, spends these hours acquiring or honing his/her English and Soft Skills. Life Essentials In this component, students are encouraged to explore the interconnected worlds of self, family and society, i.e. Human Values. The idea is to equip students with the capacity to reflect on their decisions and actions, to develop their values and ethics, and to conduct themselves in society with maturity and finesse. On weekends, students are taken on visits to old age homes and orphanages, and participate in tree-plantation and cleanliness drives. Life Enhancements By participating in a variety of sports, including yoga and creative activities (a theatre workshop, visual arts and music), students taste a range of extra-curricular activities, some of which may turn into hobbies for life. Inspirational Activities Here, eminent speakers from all walks of life are invited to address students. Introduction to student activities on campus such as gymkhana, clubs, film screenings and other Evening Activities keep students happily occupied in the evening hours. With the IIT Mandi philosophy of learning to learn, students no longer expect teachers to spoon feed information to them. The 5WIP is, therefore, intended to help students become more self-sufficient and self-confident. Assessments at the end of the programme over the last three years indicate that these aims have been met much beyond our initial expectations. Unique Features of 5WIP 1. Students are mentored in small groups of 20 by faculty, and not by external experts. This facilitates bonding between students and faculty which enriches the rest of the 4 years. 2. There is great emphasis on the excitement of engineering, leading into the regular curriculum. 3. There is considerable emphasis on the creative arts and sports as well for holistic development of the students. 4. The unique Himalayan location of IIT Mandi facilitates outreach activities directed towards the Himachali community. "],
+        "context": [""]
+        },
+        {"tag": "tag68",
+        "patterns": ["My rank is below the cut off for CSE in IITs, I am getting CSE in xxx college, What to do?"],
+        "responses": ["IITs offer a wholesome academic environment which is far superior to any other engineering institutes in India. An IIT B.Tech programme trains you for the fast-changing world of the future, in which branch is not important. You may aspire to a particular branch or a particular IIT but are offered some other branch or IIT. IITs have flexible curricula that permit you to take some courses outside your allotted branch. The faculty, syllabus, the teaching and the lab facilities are comparable in all IITs. If you have passion and work hard, you can excel in any branch and in any IIT."],
+        "context": [""]
+        },
+        {"tag": "tag69",
+        "patterns": [" Is there a separate rank list for girls? How do I know which course I will get. Will the opening and closing rank change from last year?"],
+        "responses": ["Separate rank lists for females are not published. In the seat matrix https://josaa.nic.in for each Branch/IIT there are two rows: gender-neutral and female supernumerary. Female candidates compete for the female seats first and then for the gender-neutral seats. Hence, only the common rank list is used. The female supernumerary seat scheme is introduced for the second time this year. The opening and closing ranks of female supernumerary seats for year 2019 are available on the JoSAA website. This year, about 20% of seats in every branch at every IIT (except IIT Mandi where it is 20%) have been designated as 'female-only' seats (this has been done by creating sufficient supernumerary seats, without any reduction in the number of seats available to non-female candidates). So if you are a qualified female candidate, this year you have quite a good chance of getting an IIT seat, and a better chance than previous years of getting a branch and IIT of your choice! Hence all female candidates are advised to not go just by previous years' closing ranks, but instead fill in as many of their genuine preferences as they can, in order to maximise their chances of getting a high-preference branch and/or campus. Since many IITs have introduced new courses and total number seats are higher, the opening and closing ranks may change this year. There are two rounds of mock seat allocations and this would give you an idea about the chances of getting a particular choice according to your rank. If you are passionate about some branch or some IIT, put those at the head of your choice list. Then, list a large number of other branches and IITs, even if you are not very keen on them. IITs give students many opportunities to pursue their passion regardless of the branch that they join. "],
+        "context": [""]
+        },
+        {"tag": "tag70",
+        "patterns": ["My rank is xxx, which IIT will i get?"],
+        "responses": [": Please note that we will not be able to comment on which specific course you will get.Please check the JoSAA website for last year’s opening and closing ranks for various IITs and decide. Please note that the closing ranks this year may vary, so you may fill in many branches in IIT of your choice. Also you may fill in choices for other IITs which have even lower closing ranks. https://josaa.nic.in/ Also refer to the JOSAA business rules for clarity about choice filling."],
+        "context": [""]
+        },
+        {"tag": "tag71",
+        "patterns": ["Seat allocation procedure "],
+        "responses": ["The seat allocation in IITs is carried out in multiple rounds where the seats are allocated based on the preferences she has given. In each round after allotment of the seat, she will be provided the choice to freeze, float, slide or reject the current allotted seat. ● Freeze implies that the candidate accepts the current allotted seat and does not wish to be considered for other rounds. ● Slide implies that the candidate wants to be in the current allotted institute but still wants to be considered for preferable branches within that institute. ● Float means that she wants to be considered for any branch or any institute based on her preference list. ● Reject means that she does not want to continue and be considered for any further rounds of counselling. For more info please refer to: http://josaa.nic.in/ "],
+        "context": [""]
+        },
+        {"tag": "tag72",
+        "patterns": ["Community/cast certificate, fee payment, other formalities"],
+        "responses": ["Please refer to the JOSAA website. In case you need further clarity please get in touch with your respective Zonal IIT or organizing institute (IIT Delhi). "],
+        "context": [""]
+        },
+        {"tag": "tag73",
+        "patterns": ["should I buy my own blanket"],
+        "responses": ["no need to get your own blanket from your home, you can buy them in the campus itself. There'll be many sellers on the day you'll reach to the campus. They're made available by the institute so that you can buy at your ease."],
+        "context": [""]
+        },
+        {"tag": "tag74",
+        "patterns": ["how cold is it in winter"],
+        "responses": ["in Dec the temperature at night drops to 2-3 degrees so we suggest you to bring a jacket"],
+        "context": [""]
+        },
+        {"tag": "tag75",
+        "patterns": ["is there a post office nearby"],
+        "responses": ["yes in kamand"],
+        "context": [""]
+        },
+        {"tag": "tag76",
+        "patterns": ["it is compulsory to join any club"],
+        "responses": ["no , not really . But joining clubs is going to increase your interaction with people who have the same interests and is very useful for your personal skills development."],
+        "context": [""]
+        },
+        {"tag": "tag77",
+        "patterns": ["will hackathons be conducted"],
+        "responses": ["yes regularly by the technical clubs mosty by programming club and STAC. contact programming club for more details https://www.facebook.com/groups/KamandPrompt"],
+        "context": [""]
+        },
+        {"tag": "tag78",
+        "patterns": ["any technical fests"],
+        "responses": ["yes, Exodia is the largest technical fest of IIT Mandi. Apart from that other technical clubs like programming club, STAC, Nirmaan Club organises technical fest of their own."],
+        "context": [""]
+        },
+        {"tag": "tag79",
+        "patterns": ["any cultural fests"],
+        "responses": ["yes, Exodia is the main cultural fest of IIT Mandi."],
+        "context": [""]
+        },
+        {"tag": "80",
+        "patterns": ["Will other branch students be taught coding other than CSE"],
+        "responses": ["contact programming club for more details https://www.facebook.com/groups/KamandPrompt"],
+        "context": [""]
+        },
+        {"tag": "tag81",
+        "patterns": ["number of gsoc selections from iit mandi"],
+        "responses": ["https://pc.iitmandi.co.in/gsoc/?fbclid=IwAR2a9e1v0nyZqI2CdyqlxIF5l5jnnezffr8FA8dLCDQ7G1Aptp3z5IrlO9Q"],
+        "context": [""]
+        },
+        {"tag": "tag82",
+        "patterns": ["How is the coding culture at IIT Mandi?"],
+        "responses": ["https://www.facebook.com/groups/KamandPrompt/?ref=share"],
+        "context": [""]
+        },
+        {"tag": "tag83",
+        "patterns": ["link for zulipchat"],
+        "responses": ["https://kamandprompt.zulipchat.com/login/"],
+        "context": [""]
+        },
+        {"tag": "tag84",
+        "patterns": ["When is the observatory coming up at IIT mandi, because I saw the their page that they are planning to build one??"],
+        "responses": ["At present there are plans to make an observatory which will be used to study astronomy and collect astronomical data (there are also plans to use ML/DL algorithms on this data).STAC is constantly pushing the idea to have an observatory, but this seems not possible to have an observatory in near future."],
+        "context": [""]
+        },
+        {"tag": "tag85",
+        "patterns": ["I would like to talk to the CSE branch seniors of IIT Mandi."],
+        "responses": ["You can contact them on Facebook, mostly you’ll find them as the member of Kamand Prompt group on fb."],
+        "context": [""]
+        },
+        {"tag": "tag86",
+        "patterns": ["Hello, can anyone guide me through civil department at iit mandi with what the future scopes are with respect to placement and stuff?"],
+        "responses": ["Contact any senior from civil branch. You can find them in the Nirmaan Club group."],
+        "context": [""]
+        },
+        {"tag": "tag87",
+        "patterns": ["Which laptop should I buy??"],
+        "responses": ["https://docs.google.com/document/d/1gZ_1lB1EsCssO2eT2-4-LqY5DktD0uQjfylMx9JpFGY/edit?fbclid=IwAR2LzS7Ge2WvZNyyYwa-xffmeqsT7EpQKx0aqXUhrK9n6Ydy5ThECrNz-Zg"],
+        "context": [""]
+        },
+        {"tag": "tag88",
+        "patterns": ["is there any prerequisite to join clubs??"],
+        "responses": ["All clubs in IIT Mandi are open to everyone. The only prerequisite is to learn, grow and work hard"],
+        "context": [""]
+        },
+        {"tag": "tag89",
+        "patterns": ["How's Sports at IIT mandi?"],
+        "responses": ["Sports culture is pretty good at IIT Mandi. You can get more information about their achievements on their wiki pages, websites, facebook pages, instagram pages. For more information you can contact coordinators: https://gymkhana.iitmandi.co.in/contacts.html#sports"],
+        "context": [""]
+        },
+        {"tag": "tag90",
+        "patterns": ["how to contact sports society?"],
+        "responses": ["https://gymkhana.iitmandi.co.in/contacts.html#sports"],
+        "context": [""]
+        },
+        {"tag": "tag91",
+        "patterns": ["how to contact technical society?"],
+        "responses": ["https://gymkhana.iitmandi.co.in/contacts.html#technical"],
+        "context": [""]
+        },
+        {"tag": "tag92",
+        "patterns": ["how to contact cultural society?"],
+        "responses": ["https://gymkhana.iitmandi.co.in/contacts.html#cultural"],
+        "context": [""]
+        },
+        {"tag": "tag93",
+        "patterns": ["how to contact literary society?"],
+        "responses": ["https://gymkhana.iitmandi.co.in/contacts.html#literary"],
+        "context": [""]
+        },
+        {"tag": "tag94",
+        "patterns": ["is there any fee concession for girls"],
+        "responses": ["there is complete tuition fee waiver for girls at iit mandi"],
+        "context": [""]
+        },
+        {"tag": "tag95",
+        "patterns": ["Is there any provision of editing the information provided on ADMISSION AND ENROLLMENT page on the OAS portal once it's been submitted?"],
+        "responses": ["Write an email to ugadmission@iitmandi.ac.in"],
+        "context": [""]
+        },
+        {"tag": "tag96",
+        "patterns": ["Can anyone brief about what will happen in induction programme? Will it also be recorded, as I don’t have good net till dec start!"],
+        "responses": ["If the internet services are not good, please contact Lishma Anand."],
+        "context": [""]
+        },
+        {"tag": "tag97",
+        "patterns": ["Why is the moodle designed with a light theme it will be exponentially better if it had a dark mode"],
+        "responses": ["please give your valuable suggestion at https://tracker.moodle.org/secure/Dashboard.jspa?fbclid=IwAR0wTkx72cw6Ej1z4n_fMoX0Kwpj57ckaM0HStFyqXfUbqm7YFcgms6jFsQ"],
+        "context": [""]
+        },
+        {"tag": "tag98",
+        "patterns": ["Where can I get information about all club activities"],
+        "responses": ["https://activities.iitmandi.co.in/"],
+        "context": [""]
+        },
+        {"tag": "tag99",
+        "patterns": ["what about washing machines and inductions"],
+        "responses": ["They'll be provided in your hostel. Each hostel have them in requisite number depending on the no. of hostellers."],
+        "context": [""]
+        },
+        {"tag": "tag100",
+        "patterns": ["is there any website to avail all the resources"],
+        "responses": ["yes,moodle (https://students.iitmandi.ac.in/moodle/) but it can only be accessed using the webmail you’ll get after admission."],
+        "context": [""]
+        },
+        {"tag": "tag101",
+        "patterns": ["where will be online classes conducted"],
+        "responses": ["It'll be conducted on cisco webex, gmeet, or any other app as per the strength of the course students, Faculty of the course will provide you the link for the same via mail daily before the class."],
+        "context": [""]
+        },
+        {"tag": "tag102",
+        "patterns": ["places of hangout"],
+        "responses": ["Whole Campus is there to hangout but Village Square is the most famous location"],
+        "context": [""]
+        },
+        {"tag": "tag103",
+        "patterns": ["how can i apply for scholarships"],
+        "responses": ["http://iitmandi.ac.in/academics/scholarship.php"],
+        "context": [""]
+        },
+        {"tag": "tag104",
+        "patterns": ["where can I find grading system?"],
+        "responses": ["https://insite.iitmandi.ac.in/insite_wp/index.php/grading-system/"],
+        "context": [""]
+        },
+        {"tag": "tag105",
+        "patterns": ["pls provide link for course basket for ug"],
+        "responses": ["http://iitmandi.ac.in/academics/files/Btech_Course_Basket.pdf"],
+        "context": [""]
+        },
+        {"tag": "tag106",
+        "patterns": ["where can I find formula for cgpa calculation"],
+        "responses": ["http://iitmandi.ac.in/academics/evaluation.php"],
+        "context": [""]
+        },
+        {"tag": "tag107",
+        "patterns": ["from where can I came to know more about minor programmes"],
+        "responses": ["http://iitmandi.ac.in/academics/minor_program.php"],
+        "context": [""]
+        },
+        {"tag": "tag108",
+        "patterns": ["how are the professors at iit mandi?"],
+        "responses": ["Professors are very good in IIT Mandi .most of them also do research in their areas of expertise which allows willing students to have hands on experience also"],
+        "context": [""]
+        },
+        {"tag": "tag109",
+        "patterns": ["how easy is it to switch from python to C++ or vice versa"],
+        "responses": ["contact programming club for details https://gymkhana.iitmandi.co.in/"],
+        "context": [""]
+        },
+        {"tag": "tag110",
+        "patterns": ["is there any Amazon or Flipkart service here"],
+        "responses": ["yes , all kind of online packages arive here"],
+        "context": [""]
+        },
+        {"tag": "tag111",
+        "patterns": ["Is programming taught in college or we have to learn it by our own"],
+        "responses": ["labs will be conducted for some courses and one can join programming club but there are no specific coding courses available . for more details contact programming club"],
+        "context": [""]
+        },
+        {"tag": "tag112",
+        "patterns": ["should we know any prior coding before coming to college"],
+        "responses": ["not really no , you can learn it by participating in programming club .please contact programming club for more details"],
+        "context": [""]
+        },
+        {"tag": "tag113",
+        "patterns": ["are there shops nearby campus for purchasing goods"],
+        "responses": ["yes, for stationary and general products you'll get shops in the campus itself. Additionally you can get goods from Kamand or Mandi."],
+        "context": [""]
+        },
+        {"tag": "tag114",
+        "patterns": ["how to reach Mandi from campus"],
+        "responses": ["campus buses with a frequency of 4 per hour https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.iitmandi.ac.in/files/bus_schedule.pdf&ved=2ahUKEwjdw5X93JbuAhUxwjgGHfxaAr4QFjAAegQIARAB&usg=AOvVaw24Rp9yVO62s45SpCsF7qXT"],
+        "context": [""]
+        },
+        {"tag": "tag115",
+        "patterns": ["My Rank is beyond the closing rank for courses last year what should I do"],
+        "responses": ["Please note that we will not be able to comment on which specific course you will get.Please check last year’s closing ranks for various courses and decie. This year the closing ranks may vary, but not drastically. Though with very low rank getting a seat is difficult,To maximize your chance, you may consider filling in choices for a course which has lower closing rank and also fill in a large number of choices. You will get clarity during the two mock rounds and may decide accordingly."],
+        "context": [""]
+        },
+        {"tag": "tag116",
+        "patterns": ["I have got a PREP rank, what does that mean? "],
+        "responses": [""],
+        "context": [""]
+        },
+        {"tag": "tag127",
+        "patterns": ["My rank is below the cut off for CSE in IITs, I am getting CSE in xxx college, What to do?"],
+        "responses": ["IITs offer a wholesome academic environment which is far superior to any other engineering institutes in India. An IIT B.Tech programme trains you for the fast-changing world of the future, in which branch is not important. You may aspire to a particular branch or a particular IIT but are offered some other branch or IIT. IITs have flexible curricula that permit you to take some courses outside your allotted branch. The faculty, syllabus, the teaching and the lab facilities are comparable in all IITs. If you have passion and work hard, you can excel in any branch and in any IIT"],
+        "context": [""]
+        }
+]
+}
+
