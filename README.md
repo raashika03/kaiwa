@@ -1,10 +1,11 @@
 # kaiwa
-Chatbot to answer queries for future freshers of IIT Mandi\
+Chatbot to answer queries for future freshers of IIT Mandi
 ## Team Members:
 Shruti Jain(B20136)\
 B Keerthi(B18049)\
 CHVSN Medha(B18051)\
-Rashika Rathi(B18081)\
+Rashika Rathi(B18081)
+
 Watch the project video by clicking at the link:
 [Video]()
 
