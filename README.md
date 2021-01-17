@@ -7,7 +7,7 @@ CHVSN Medha(B18051)\
 Rashika Rathi(B18081)
 
 Watch the project video by clicking at the link:
-[Video]()
+[Video](https://youtu.be/Ji2Y1yxRPLE)
 
 ## Prerequisites
 we used some modules which you can download using the python-pip command.\
