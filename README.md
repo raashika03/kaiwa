@@ -14,7 +14,8 @@ pip install tensorflow, keras, pickle, nltk
 Instructions for setup and running the chatbot\
 To run the chatbot, we have two main files: 
 1. train_chatbot.py, and 
-2. bot.py\
+2. bot.py
+
 First, we train the model using the command in the terminal:\
 python train_chatbot.py
 
