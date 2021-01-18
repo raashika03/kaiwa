@@ -585,7 +585,7 @@
         "context": [""]
         },
         {"tag": "tag118",
-        "patterns": ["   "],
+        "patterns": [" ??????  "],
         "responses": [" If you question is programming related then contact Programming Club coordinators, if it's sports related then contact sports secretary, technical clubs related then contact Technical Secretary or any other question then contact the relevant secretaries from the link given: https://gymkhana.iitmandi.co.in/ "],
         "context": [""]
         }
