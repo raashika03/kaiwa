@@ -576,12 +576,17 @@
         },
         {"tag": "tag116",
         "patterns": ["I have got a PREP rank, what does that mean? "],
-        "responses": [""],
+        "responses": ["The Preparatory Course is a provision of PWD, SC and ST candidates only. In case there are vacancies in your category towards the end of seat allocation, you may be provisionally allotted one of these vacant seats. You will then have to attend the Preparatory Course of one year duration in one of the IITs during 2020-2021. If you pass in all subjects, you will be admitted into the allotted branch/IIT in the 2021-2022 session. For more details on preparatory course, see https://jeeadv.ac.in/brochures.html To be considered for the Preparatory seat allotment, you must fill in your choice lists before 15th October. The provisional allotment is made based on your choice list. For more information, please visit http://josaa.nic.in "],
         "context": [""]
         },
-        {"tag": "tag127",
+        {"tag": "tag117",
         "patterns": ["My rank is below the cut off for CSE in IITs, I am getting CSE in xxx college, What to do?"],
         "responses": ["IITs offer a wholesome academic environment which is far superior to any other engineering institutes in India. An IIT B.Tech programme trains you for the fast-changing world of the future, in which branch is not important. You may aspire to a particular branch or a particular IIT but are offered some other branch or IIT. IITs have flexible curricula that permit you to take some courses outside your allotted branch. The faculty, syllabus, the teaching and the lab facilities are comparable in all IITs. If you have passion and work hard, you can excel in any branch and in any IIT"],
+        "context": [""]
+        },
+        {"tag": "tag118",
+        "patterns": ["   "],
+        "responses": [" If you question is programming related then contact Programming Club coordinators, if it's sports related then contact sports secretary, technical clubs related then contact Technical Secretary or any other question then contact the relevant secretaries from the link given: https://gymkhana.iitmandi.co.in/ "],
         "context": [""]
         }
 ]
